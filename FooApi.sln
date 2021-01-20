@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FooApi", "src\FooApi.csproj", "{F7C9C4BF-4DC9-4E94-8E63-F1F943879F61}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EEC038CD-AEBD-453A-8995-BD23DE3BB5CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FooApiTests", "tests\FooApiTests.csproj", "{96F94235-E6DA-4518-8E32-07B5ADE25C86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{F7C9C4BF-4DC9-4E94-8E63-F1F943879F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C9C4BF-4DC9-4E94-8E63-F1F943879F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C9C4BF-4DC9-4E94-8E63-F1F943879F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F94235-E6DA-4518-8E32-07B5ADE25C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F94235-E6DA-4518-8E32-07B5ADE25C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F94235-E6DA-4518-8E32-07B5ADE25C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F94235-E6DA-4518-8E32-07B5ADE25C86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96F94235-E6DA-4518-8E32-07B5ADE25C86} = {EEC038CD-AEBD-453A-8995-BD23DE3BB5CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C4D6236-6253-40E6-9AD3-8E26F28BB89D}
